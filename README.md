@@ -1,10 +1,8 @@
-# 🛡️ Keylogger Detection Script (Python)
+ Keylogger Detection Script (Python)
 
 A simple Python-based keylogger detection tool that scans running system processes and flags potentially suspicious programs based on process names and execution paths. This project demonstrates basic endpoint security concepts without using machine learning.
 
----
-
-## 🚀 Features
+ Features
 
 - Scans all running processes in real time  
 - Detects suspicious processes using:
@@ -14,9 +12,9 @@ A simple Python-based keylogger detection tool that scans running system process
 - No malware creation or keystroke capture  
 - Safe for academic and learning purposes  
 
----
 
-## 🧩 How It Works
+
+ How It Works
 
 The script uses the `psutil` library to iterate through active system processes and checks:
 
@@ -35,26 +33,26 @@ The script uses the `psutil` library to iterate through active system processes 
 
 If a match is found, the process PID, name, and path are displayed.
 
----
 
-## 📂 Project Structure
+
+ Project Structure
 
 keylogger-detection/  
 ├── keylogger_detector.py  
 ├── README.md  
 └── requirements.txt  
 
----
 
-## 🛠️ Requirements
+
+ Requirements
 
 - Python 3.7 or higher  
 - Required library:
   pip install psutil
 
----
 
-## ▶️ Usage
+
+ Usage
 
 1. Clone the repository:
    git clone https://github.com/yourusername/keylogger-detection.git  
@@ -67,9 +65,9 @@ keylogger-detection/
    - Displays suspicious processes if detected  
    - Shows a safe message if no threats are found  
 
----
 
-## 📌 Sample Output
+
+ Sample Output
 
 Keylogger Detection Scan
 
@@ -82,36 +80,34 @@ OR
 
 No suspicious keylogger activity detected.
 
----
 
-## ⚠️ Limitations
+
+ Limitations
 
 - Cannot detect advanced or encrypted keyloggers  
 - Uses heuristic rules, not behavioral analysis  
 - Intended for educational use only  
 
----
 
-## 🔐 Ethical Disclaimer
+
+Ethical Disclaimer
 
 This project is created strictly for cybersecurity learning and awareness.  
 It does not capture keystrokes or violate user privacy.  
 
 Do not use this tool for malicious purposes.
 
----
 
-## 📚 Future Enhancements
+
+ Future Enhancements
 
 - Behavior-based detection  
 - Hash-based malware scanning  
 - Windows registry monitoring  
 - GUI dashboard  
-- Logging results to CSV or JSON  
 
----
 
-## 🧑‍💻 Author
+Author
 
 Krithik Shyaam  
 Cybersecurity & Python Enthusiast  
